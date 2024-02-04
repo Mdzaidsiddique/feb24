@@ -1,0 +1,20 @@
+package com.revise;
+
+public class Main {
+	
+	 {
+		int i=10;
+		System.out.println(i);
+	}
+	
+	public static void main(String[] args) {
+		
+		int j = 20;
+		
+//		Main m = new Main();
+		
+		System.out.println(" "+j);
+		
+
+	}
+}

@@ -1,0 +1,14 @@
+package com.revise;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		Print statements
+		System.out.print("hello java world"+"\n");
+		
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Character.MIN_VALUE);
+		
+	}
+
+}

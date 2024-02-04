@@ -1,0 +1,32 @@
+package com.revise;
+//DynamicPolymorphism
+public class Animal {
+	    void sound() {
+	        System.out.println("Animal makes a sound");
+	    }
+	}
+
+	class Dog extends Animal {
+	    @Override
+	    void sound() {
+	        System.out.println("Dog barks");
+	    }
+	}
+
+	class Cat extends Animal {
+	    @Override
+	    void sound() {
+	        System.out.println("Cat meows");
+	    }
+	}
+
+	public class DynamicPolymorphism {
+	    public static void main(String[] args) {
+	        Animal animal1 = new Dog();
+	        Animal animal2 = new Cat();
+
+	        // The type of object determines the method implementation at runtime
+	        animal1.sound(); // Output: Dog barks
+	        animal2.sound(); // Output: Cat meows
+	    }
+	}

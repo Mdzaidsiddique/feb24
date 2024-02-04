@@ -1,0 +1,15 @@
+package com.revise;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int age = 18;
+		String nationality = "indian";
+		if(age >= 18 && nationality == "indian")
+		    System.out.println("Can Vote");
+		else
+		    System.out.println("Can’t Vote");
+		 
+}
+}

@@ -1,0 +1,22 @@
+package com.revise;
+
+public class Polymorphism {
+
+	void function1(byte b){ 
+		System.out.println("inside function1(byte) of class polymorphism (500 line code)");
+		//500 line of code		
+	 }
+
+	void function1(int i){ 
+		System.out.println("inside function1(int) of class polymorphism (1000 line code)");
+		//10000 line of code	
+	 }
+
+	public static void main(String[] args){
+		
+		Polymorphism p1=new Polymorphism();
+		int x=20;
+		p1.function1(x);  // it will give the priority to the nearest one.
+	
+	}
+}

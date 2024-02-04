@@ -1,0 +1,24 @@
+package com.revise;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int num = 12;
+		int alt1 = 0; int alt2 = 0;
+		
+		while(num>=0) {
+			int a = (num%10);
+			alt1+=a;
+			num=num-a;
+			System.out.println(alt1);
+			int b = num%10;
+			alt2+=b;
+			num = num-b;
+		}
+		
+		
+		System.out.println(alt1+" "+alt2);
+		System.out.println(alt1-alt2 == 0? "divisible": "nd");
+}
+}

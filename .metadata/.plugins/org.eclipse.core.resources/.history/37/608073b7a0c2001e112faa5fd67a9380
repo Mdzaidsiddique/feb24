@@ -1,0 +1,17 @@
+package com.revise;
+
+public class Main {
+	String name;
+	int age;
+
+	public static void speak(String name, int age) {
+		System.out.println(name+" "+age);
+	}
+	public static void main(String[] args) {
+
+	Main m = new Main();
+	m.name = "zaid";
+	m.age = 10;
+	speak("amir", 12);
+	}
+}
