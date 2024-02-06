@@ -15,8 +15,5 @@ public class Main {
 		
 		Main obj3=new Main();
 		System.out.println(obj3.x);
-		
-		int b = 10;
-	    System.out.println(++b != 10 && b++ != 12 || b == 13);
 	}
 }
