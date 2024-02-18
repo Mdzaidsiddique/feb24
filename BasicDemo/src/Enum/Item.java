@@ -16,5 +16,4 @@ public enum Item {
 			System.out.println(i.ordinal()+" "+i.name());
 		}
 	}
-
 }
